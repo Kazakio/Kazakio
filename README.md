@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,100:1BA0D7&height=170&section=header&text=Kazaki&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Networking%20%26%20Cybersecurity&descSize=18&descAlignY=60" alt="Kazaki - Networking & Cybersecurity" width="100%" />
+  <img src="assets/banner.svg" alt="Kazaki - Network Engineering and Cybersecurity" width="100%" />
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@ Networking and cybersecurity student. I design, configure and verify Cisco netwo
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Kazakio/network-security-labs/tree/main/labs/01-two-site-ospf">
-        <img src="https://raw.githubusercontent.com/Kazakio/network-security-labs/main/labs/01-two-site-ospf/images/topology.png" alt="Two-site OSPF topology" width="100%" />
+        <img src="assets/lab01-card.png" alt="Two-site OSPF topology" width="100%" />
       </a>
       <br/>
       <b><a href="https://github.com/Kazakio/network-security-labs/tree/main/labs/01-two-site-ospf">Two-site OSPF + router hardening</a></b>
@@ -62,7 +62,7 @@ Networking and cybersecurity student. I design, configure and verify Cisco netwo
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Kazakio/network-security-labs/tree/main/labs/02-vlan-router-on-a-stick">
-        <img src="https://raw.githubusercontent.com/Kazakio/network-security-labs/main/labs/02-vlan-router-on-a-stick/images/topology.png" alt="VLAN router-on-a-stick topology" width="100%" />
+        <img src="assets/lab02-card.png" alt="VLAN router-on-a-stick topology" width="100%" />
       </a>
       <br/>
       <b><a href="https://github.com/Kazakio/network-security-labs/tree/main/labs/02-vlan-router-on-a-stick">VLANs + router-on-a-stick + DHCP</a></b>
@@ -92,4 +92,3 @@ Switch security (port security, DHCP snooping, DAI) &middot; NAT/PAT &middot; ex
   <sub>Open to internships and junior roles in networking and network security.</sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1BA0D7,100:0B1F3A&height=90&section=footer" alt="" width="100%" />

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Kazaki - Network Engineering and Cybersecurity">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152B"/>
+      <stop offset="0.55" stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#0E3B5C"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1BA0D7" fill-opacity="0.18"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07152B" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#07152B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="14" fill="url(#dots)"/>
+
+  <!-- network topology motif (right side) -->
+  <g stroke="#1BA0D7" stroke-opacity="0.55" stroke-width="1.6" fill="none">
+    <path d="M760 70 L900 70 L1040 110 L1120 60"/>
+    <path d="M760 70 L820 160 L960 190 L1040 110"/>
+    <path d="M900 70 L960 190"/>
+    <path d="M820 160 L720 210"/>
+    <path d="M1040 110 L1110 190 L960 190"/>
+    <path d="M900 70 L880 20" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="#0B1F3A" stroke="#1BA0D7" stroke-width="2">
+    <circle cx="760" cy="70" r="9"/>
+    <circle cx="900" cy="70" r="11"/>
+    <circle cx="1040" cy="110" r="11"/>
+    <circle cx="1120" cy="60" r="7"/>
+    <circle cx="820" cy="160" r="8"/>
+    <circle cx="960" cy="190" r="10"/>
+    <circle cx="1110" cy="190" r="7"/>
+    <circle cx="720" cy="210" r="6"/>
+  </g>
+  <g fill="#1BA0D7">
+    <circle cx="900" cy="70" r="4"/>
+    <circle cx="1040" cy="110" r="4"/>
+    <circle cx="960" cy="190" r="4"/>
+  </g>
+
+  <rect width="1200" height="260" rx="14" fill="url(#fade)"/>
+
+  <!-- text -->
+  <text x="64" y="112" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF" letter-spacing="1">Kazaki</text>
+  <text x="66" y="152" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#9FD8F2">Network Engineering  ·  Cybersecurity</text>
+  <g font-family="Consolas, Menlo, Monaco, monospace" font-size="15" fill="#5FB8DE">
+    <text x="66" y="196">R1# show ip ospf neighbor</text>
+    <text x="66" y="218" fill="#3E8FB5">2.2.2.2   1   FULL/DR   192.168.10.98   Gi0/0/1</text>
+  </g>
+  <rect x="64" y="128" width="0" height="0"/>
+</svg>
